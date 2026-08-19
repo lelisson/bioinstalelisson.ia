@@ -1,8 +1,9 @@
 # Lélisson · links da bio
 
-Página única para o Instagram: apps, WhatsApp e perfil.
+Página única para o Instagram: apps, WhatsApp, e-mail e perfil.
 
 WhatsApp: https://wa.me/5579996488547  
+E-mail: lelissonsantoscampos@gmail.com  
 Corridômetro: https://play.google.com/store/apps/details?id=com.corridometro
 
 ## Publicar no GitHub Pages
