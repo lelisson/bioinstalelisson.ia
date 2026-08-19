@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lélisson · IA Aplicada</title>
+  <meta name="description" content="Apps, automação e identidade visual. Baixe o Corridômetro e fale no WhatsApp." />
+  <link rel="icon" href="simbolo.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --navy: #0f172a;
+      --ink: #0b1220;
+      --teal: #0d9488;
+      --teal-2: #14b8a6;
+      --paper: #f4f7fa;
+      --muted: #64748b;
+      --wa: #25d366;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 50% -10%, #1e293b 0%, var(--ink) 55%);
+      color: var(--paper);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px 48px;
+    }
+    main { width: 100%; max-width: 420px; }
+    header { text-align: center; margin-bottom: 28px; }
+    .mark {
+      width: 88px; height: 88px; margin: 0 auto 16px;
+      filter: drop-shadow(0 10px 24px rgba(13, 148, 136, 0.25));
+    }
+    h1 { font-size: 1.7rem; letter-spacing: -0.03em; }
+    .tag {
+      margin-top: 6px;
+      color: var(--teal-2);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+    }
+    .lead {
+      margin-top: 12px;
+      color: #94a3b8;
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+    .stack { display: grid; gap: 12px; }
+    a.btn {
+      display: flex; align-items: center; gap: 14px;
+      text-decoration: none; color: inherit;
+      background: var(--card); color: var(--navy);
+      border-radius: 16px; padding: 14px 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.22);
+      transition: transform .15s ease;
+    }
+    a.btn:hover { transform: translateY(-1px); }
+    a.btn.wa { background: var(--wa); color: #06240f; }
+    a.btn.ig { background: #1e293b; color: var(--paper); border: 1px solid #334155; }
+    .icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      display: grid; place-items: center; flex: none;
+      background: var(--navy); color: #fff; font-weight: 700; font-size: 0.8rem;
+    }
+    .wa .icon { background: #128c3e; }
+    .ig .icon { background: #0f172a; }
+    .copy strong { display: block; font-size: 1rem; }
+    .copy span { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 2px; }
+    .wa .copy span, .ig .copy span { color: inherit; opacity: .78; }
+    footer {
+      margin-top: 28px; text-align: center;
+      color: #64748b; font-size: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img class="mark" src="simbolo.svg" alt="Lélisson IA Aplicada" />
+      <h1>Lélisson</h1>
+      <p class="tag">IA APLICADA</p>
+      <p class="lead">Apps, automação contábil, dados e identidade visual. Um lugar para baixar os aplicativos e falar comigo.</p>
+    </header>
+
+    <div class="stack">
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.corridometro">
+        <div class="icon">C</div>
+        <div class="copy">
+          <strong>Corridômetro</strong>
+          <span>Baixar grátis na Play Store</span>
+        </div>
+      </a>
+
+      <a class="btn wa" href="https://wa.me/5579996488547?text=Ol%C3%A1%20L%C3%A9lisson%2C%20vim%20pelo%20Instagram">
+        <div class="icon">WA</div>
+        <div class="copy">
+          <strong>WhatsApp</strong>
+          <span>(79) 99648-8547 · resposta direta</span>
+        </div>
+      </a>
+
+      <a class="btn ig" href="https://instagram.com/lelisson.ia">
+        <div class="icon">IG</div>
+        <div class="copy">
+          <strong>Instagram</strong>
+          <span>@lelisson.ia</span>
+        </div>
+      </a>
+    </div>
+
+    <footer>Lélisson Campos · IA Aplicada</footer>
+  </main>
+</body>
+</html>
